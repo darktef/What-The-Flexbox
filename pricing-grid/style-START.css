@@ -17,6 +17,18 @@ a {
   color:white;
 }
 
+.plan {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  background: rgba(255,255,255,0.2);
+  margin: 25px;
+  padding: 25px;
+  text-align: center;
+  border-radius: 4px;
+}
+
 .plan ul {
   margin: 0;
   padding: 0;
@@ -58,5 +70,6 @@ a {
 .pricing-grid {
   max-width:750px;
   margin: 0 auto;
-  
+  display: flex;
+  align-items: center
 }
