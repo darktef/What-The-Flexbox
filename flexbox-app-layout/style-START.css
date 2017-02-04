@@ -98,6 +98,41 @@ a.button {
 
 */
 
+.app-wrap {
+  display:flex;
+  flex-direction: column;
+}
+
+.app-wrap > * {
+  flex:1 1 auto;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  /*height: 65vh;*/
+  overflow: scroll;
+   -webkit-overflow-scrolling:touch;
+}
+
+.icon-bar {
+  display: flex;
+}
+
+.icon-bar a {
+  flex:1 1 25%;
+  display: flex;
+  flex-direction: column;
+  height: 75px;
+}
+
+.icon-bar a > * {
+  flex:1;
+}
 
 /*
   Overall Layout
